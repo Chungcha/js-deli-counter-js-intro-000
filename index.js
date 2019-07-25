@@ -1,4 +1,3 @@
-
 function takeANumber(dLine, name){
   dLine.push(name);
   return `Welcome, ${name}. You are number ${dLine.length} in line.`;
@@ -29,6 +28,6 @@ function currentLine(dLine){
         intro += i+1 + ". "+ dLine[i] + ", ";
       }
     }
+    return intro;
   }
-  return intro;
 }
